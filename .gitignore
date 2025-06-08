@@ -1,0 +1,36 @@
+# Environment variables (IMPORTANT: Never commit API keys!)
+.env
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Streamlit files
+.streamlit/
+
+# Conversation logs (optional - you may want to exclude these)
+conversation_log.json
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated files
+*.txt
+*.html
+
+# Logs
+*.log
